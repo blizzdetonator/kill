@@ -1,0 +1,39 @@
+body{
+  background:black;
+}
+
+#cvs{
+  border:2px solid white;
+  margin:10px;
+  color:white;
+  text-align:center;
+  font-size:400%;
+  background-image:url('res/icon/bg.png');
+  background-size:contain;
+}
+
+#joyparent{
+  border:2px solid var(--main);
+  margin:10px;
+  position:absolute;
+}
+
+#joymain{
+  border:2px solid white;
+  position:relative;
+  border-radius:100%;
+}
+
+#cs {
+  height:200px;
+  width:200px;
+  background:white;
+  font-size:100%;
+}
+
+
+
+
+:root{
+  --main:white;
+}
